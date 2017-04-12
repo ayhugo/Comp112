@@ -1,0 +1,26 @@
+/* Hugo, March 2016. Style sheet for activity 5 */
+html {
+	color: black;
+	background-color: #f2f2ff;
+}
+h1 {
+	font-size: x-large;
+	color: #4d4da6;
+	background-color: #f2f2cc;
+	font-family: Geneva;
+	font-style: italic;
+}
+h2 {
+	font-size: large;
+	color: #4d4da6;
+	background-color: #f2f2ff;
+	font-family: Geneva;
+	text-decoration: underline;
+}
+p{
+	font-size: medium;
+	color: #4d4da6;
+	background-color:#f2f2ff
+	font-family:Geneva;
+	text-indent: 50px;
+}

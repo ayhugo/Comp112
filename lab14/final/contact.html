@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<!-- 
+	hayre 
+	contact.html 
+	-->
+		<title>Mumma Bear</title>
+		<meta charset=utf-8>
+		<script type="text/javascript" src="javascript.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<h1>Mumma Bear Child Care</h1>
+		<div id = "menu">
+			<nav>
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="services.html">Services</a></li>
+					<li><a href="timetable.html">TimeTable</a></li>
+					<li><a class="active">Contact</a></li>
+				</ul>
+			</nav>
+		</div>
+		<div id = "main">
+			<!-- Form the emails the inputs to ayrhu468@student.otago.ac.nz -->
+			<form method="post" enctype="application/x-www-form-urlencoded" action="http://web112.otago.ac.nz/112bin/112formslab.cgi">
+				<input type="hidden" name="recipient" value="ayrhu468@student.otago.ac.nz">
+				<input type="hidden" name="subject" value="subject of resulting email">
+				<input type="hidden" name="followup-page" value="http://www.cs.otago.ac.nz/comp112/followup.html">
+				<fieldset class="textInputs">
+					<legend>Contact Details</legend>
+					<ul>
+						<li>
+							<label for="name">Name:</label>
+							<input type="text" id="name" name="name" tabindex="1" placeholder="Please enter your name" required pattern="[A-Za-z '-]+">
+						</li>
+						<li>
+							<label for="sender">Email address:</label>
+							<input type="text" id="sender" name="sender" tabindex="2" placeholder="Please enter your email address" required>
+						</li>
+						<li>
+							<label for="phone">Phone number:</label>
+							<input type="tel" id="phone" name="phone" tabindex="3"  placeholder="Please enter your phone number" required pattern="[0-9 ()-]+">
+						</li>
+					</ul>
+				</fieldset>
+				<fieldset class="childInput">
+					<legend>Childs Details</legend>
+					<ul>
+						<li>
+							<label>
+								<label for="childname">Childs name:</label>
+								<input type="text" id="childname" name="childname" placeholder="Enter your childs name" required pattern="[A-Za-z '-]+">
+							</label>
+						</li>
+						<li>
+							<label for="phone">Childs age:</label>
+							<input type="text" id="age" name="age" placeholder="Enter your childs age">
+						</li>
+					</ul>
+				</fieldset>
+				<fieldset>
+					<legend>Comments</legend>
+					<label><textarea cols="50" rows="1" id="comments" name="comments">Add your comments here</textarea></label>
+				</fieldset>
+				<fieldset >
+					<input  style="float: right;" type="submit" value="submit">
+					<input style="float: right;" type="reset" name="reset">
+				</fieldset>
+			</form>
+			<h2>Mama Bear Staff.</h2>
+			<p>All programs employ qualified staff and offer high quality care and education in accordance with the Big Bear early childhood curriculum.
+			</p>
+			<h3>Centre Owner</h3>
+			<ul>
+				<li>Mama Bear</li>
+			</ul>
+			<h3>Centre Manager</h3>
+			<ul>
+				<li>Papa Bear</li>
+			</ul>
+			<h3>Teachers</h3>
+			<ul>
+				<li>Chris Gough</li>
+				<li>Pip Dewar</li>
+				<li>Toni Isaac</li>
+				<li>Dawn Ayres</li>
+				<li>Alex King</li>
+				<li>Lee Snow</li>
+			</ul>
+		</div>
+		<footer>
+			<p>This website was created for a University project. The content is largely fictional and no services are actually being offered.
+			</p>
+		</footer>
+	</body>
+</html>

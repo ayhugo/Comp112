@@ -1,0 +1,139 @@
+/*Primary style sheet for HTML5 and CSS mini site*/
+/*Nick Meek, Dec 2012*/
+
+/* Generic Stuff */ 
+
+@font-face {font-family: "Pirulen";
+    src: url("http://db.onlinewebfonts.com/t/eb481342c9a3f1756204044159fae0f4.eot");
+    src: url("http://db.onlinewebfonts.com/t/eb481342c9a3f1756204044159fae0f4.eot?#iefix") format("embedded-opentype"),
+    url("http://db.onlinewebfonts.com/t/eb481342c9a3f1756204044159fae0f4.woff2") format("woff2"),
+    url("http://db.onlinewebfonts.com/t/eb481342c9a3f1756204044159fae0f4.woff") format("woff"),
+    url("http://db.onlinewebfonts.com/t/eb481342c9a3f1756204044159fae0f4.ttf") format("truetype"),
+    url("http://db.onlinewebfonts.com/t/eb481342c9a3f1756204044159fae0f4.svg#Pirulen") format("svg");
+}
+
+@import url(https://fonts.googleapis.com/css?family=Quicksand);
+
+html{
+
+	text-align:justify;
+	min-width: 750px;
+	font-size:small;
+	font-family: 'Quicksand', cursive;
+}
+body{
+	width:900px;
+	margin: 0 auto;
+	padding:  10px 20px;
+	background-color: #e7eff5;
+	color: #001100;
+}
+
+h1, h2{
+	font-family: Pirulen;
+}
+
+h2 {
+    border-bottom: 1px solid;
+}
+
+
+header{
+	background: #a7d2f2; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#a7d2f2, #e7eff5); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#a7d2f2, #e7eff5); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#a7d2f2, #e7eff5); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#a7d2f2, #e7eff5); /* Standard syntax */
+	text-align: center;
+	border-radius: 10px;	
+}
+
+header h1{
+	text-decoration:none;
+	border: 0;
+	padding-top:10px;
+
+}
+
+/* Navigation */
+
+nav{
+	list-style-type:none;
+	padding: 5px 0 50px 0;
+	}
+
+nav ul{
+	color: white;
+	background-color: inherit;
+
+}
+
+nav li{
+	color: #49a9ed;
+	background: -moz-linear-gradient(#e7eff5, #a7d2f2); /* For Firefox 3.6 to 15 */
+	box-shadow: 10px 10px 5px #888888;
+	border-radius: 10px;
+	display:inline;
+	padding: 5px 20px;
+	margin: 5px 20px 0 0;
+	
+}
+
+#mainNav a{
+	
+}
+
+
+/* Main Content */
+#mainContent{
+	width:600px;
+}
+
+#rightCol{
+	float:right;
+	width:275px;
+}
+
+section {
+	padding:5px;
+	border: 1px solid #49a9ed;
+	margin-bottom:10px;
+	border-radius: 10px;
+}
+
+aside {
+	text-align:center;
+	padding:0;
+	margin:0;
+	margin-top:30px;	
+	position:relative;
+	top:-35px;
+}
+
+aside h2{
+	padding-top:5px;
+	font-size:medium;
+	border-bottom: 0px solid #330033;
+}
+
+section dl dt{
+	font-weight:bold;
+}
+
+blockquote{
+	margin:0 auto;
+	width:80%;
+	border: 1px dotted black;
+	padding: 0 10px;
+}
+
+blockquote cite{
+	display:block;
+	text-align:right;
+	font-style:italic;
+}
+
+@font-face{
+	font-family: Quicksand;
+	src: url(./Quicksand/Quicksand_Book.otf)format("opentype");
+}

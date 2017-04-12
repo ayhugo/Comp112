@@ -1,0 +1,13 @@
+section{
+	width: 100%;
+}
+
+section h2{
+	text-align:center;
+}
+
+section div{
+	text-align:justify;
+	margin:10px 20px;
+
+}

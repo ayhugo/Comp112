@@ -1,0 +1,210 @@
+/*
+ *hayre
+ *style.css
+ */
+
+
+/* everything to do with the body and text. */
+body {
+	background-color: #efefef;
+	color:#555555;
+	font-family: Arial, Helvetica, sans-serif;	
+	width:1000px;
+	margin:100px auto;
+}
+
+h1 {
+	color: #000000;
+	background-color: inherit;
+	margin: 0;
+}
+
+h2, h3, h4 {
+	margin-left: 3px;
+}
+
+
+/* Menu bar. */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+	color: inherit;
+	box-shadow: 0px 0px 5px 1px #888888;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+	background-color: inherit;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+nav li a:hover {
+	color: inherit;
+    background-color: #111;
+}
+
+.active {
+	color: inherit;
+    background-color: #ECECEC;
+}
+
+/* coloring the links */
+a { 
+	background-color: inherit;
+	color: inherit; 
+} 
+
+/* everything in the main div */
+#main {
+	color:inherit;
+	background-color:#FFFFFF;
+	box-shadow: 0px 0px 5px 1px #888888;
+	clear: right;
+	padding-bottom: 10px;
+	
+}
+
+#left {
+	width: 49%;
+	text-align:center;
+}
+
+
+
+section {
+	margin-top: 30px;
+	margin-bottom: 20px;
+	width:32%;
+	height: 220px;
+	float: left;
+	color:inherit;
+	background-color:#FFFFFF;
+	box-shadow: 0px 0px 5px 1px #888888;
+
+}
+
+section + section {
+	margin-left:20px;
+}
+
+
+ul {
+	margin-top:-20px;
+}
+
+figure {
+	float: right;
+	padding: 0px;
+	margin-right: 20px;
+}
+
+#main p {
+	margin-left: 5px;
+	margin-right: 5px;
+}
+
+/* table properties. */
+table, td, th {
+	text-align: center;
+	border: 1px solid gray;
+}
+
+/* everything to do with the contact form*/
+form ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+form li {
+	display: inline-block;
+}
+
+form{
+	width: 450px;
+	float: right;
+	background-color: inherit;
+	color:inherit;
+}
+
+fieldset {
+	background-color: #cccccc;
+	color: inherit;
+	margin: 10px;
+}
+
+legend {
+	background-color: #ffffff;
+	color: inherit;
+	border: 1px solid black;
+}
+
+.textInputs label{
+	float: left;
+	width: 150px;
+}
+
+.textInputs input{
+	float: left;
+	width: 230px;
+}
+
+.textInputs li{
+	clear:both;
+}
+
+
+.childInput li{
+	display: inline-block;
+	width: 48%;
+}
+/* lightbox */
+#lightbox{
+	background-color:#eee;
+	color: inherit;
+	padding: 10px;
+	border-bottom: 2px solid #666;
+	border-right: 2px solid #666;
+	}
+#lightboxDetails{
+	font-size: 0.8em;
+	padding-top: 0.4em;
+	}	
+#lightboxCaption{ 
+	float: left; 
+}
+#keyboardMsg{ 
+	float: right; 
+}
+
+#lightbox img{ 
+	border: none; 
+} 
+#overlay img{ 
+	border: none; 
+}
+
+
+#overlay{ 
+	background-image: url(overlay.png); 
+}
+
+
+
+/* footer */
+footer {
+margin-top: 20px;
+font-size: 10px;
+}
+
+

@@ -1,0 +1,74 @@
+/* 
+created April 28, 2016
+by Hugo Ayre
+*/
+body {
+	background-color: #ebfff9;
+	color: inherit;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	display: inline-block;
+}
+
+form{
+	width: 450px;
+	background-color:#fff9eb;
+	color:inherit;
+	float: left;
+}
+
+fieldset {
+	background-color: #cccccc;
+	color: inherit;
+	margin: 10px;
+}
+
+legend {
+	background-color: #ffffff;
+	color: inherit;
+	border: 1px solid black;
+}
+
+.textInputs label{
+	float: left;
+	width: 150px;
+}
+
+.textInputs input{
+	float: left;
+	width: 230px;
+}
+
+.textInputs li{
+	clear:both;
+}
+
+figure {
+	float: left;
+	height: 470px;
+	background-color: #000000;
+	color: inherit;
+	padding: 0;
+	margin: 0;
+}
+
+img {
+	padding-top: 90%;
+}
+.buttonInputs li{
+	display: inline-block;
+	width: 32%;
+}
+
+p {
+	clear: left;
+}

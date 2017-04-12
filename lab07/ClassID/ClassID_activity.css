@@ -1,0 +1,15 @@
+html{	background-color: #629965;	background-image: url(background.gif);	font-family: helvetica, sans-serif;	color: black;}body{	width: 70%;	margin: auto;	background-color: #ffffff;	color: inherit;	padding: 5px 10px;}h1{	font-size: x-large;	margin: 5px 0;}h2{	font-size: large;}h3{	font-size: medium;}h4{	font-size: small;}ol{	list-style-type: decimal;	list-style-position: inside;	font-size: small;	margin-left: -30px;}p{	font-size: small;	text-align: justify;	margin-top: 0px;}
+
+.moral {
+	margin-left: 20px;
+	font-style: italic;
+	
+}
+
+#author {
+	background-color : inherit;
+	color: grey;
+	text-align: center;
+	margin-top: 10px;
+	border-top: 1px solid black;
+}
